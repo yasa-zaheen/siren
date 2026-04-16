@@ -25,17 +25,10 @@ export default function AppTabs() {
         />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="alarms">
-        <NativeTabs.Trigger.Label>Alarms</NativeTabs.Trigger.Label>
-        <NativeTabs.Trigger.Icon
-          sf={{ default: "alarm", selected: "alarm.fill" }}
-        />
-      </NativeTabs.Trigger>
-
       <NativeTabs.Trigger name="settings">
         <NativeTabs.Trigger.Label>Settings</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
-          sf={{ default: "gear.circle", selected: "gearshape.circle.fill" }}
+          sf={{ default: "gear.circle", selected: "gear.circle.fill" }}
         />
       </NativeTabs.Trigger>
     </NativeTabs>
